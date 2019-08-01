@@ -1,0 +1,70 @@
+* {
+ font-family: 'Inconsolata', monospace;
+}
+
+.answer {
+ margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    text-align: center;
+    background-color: #FFAE52;
+    margin: 5px 0px 10px;
+    color: black;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  height: 1.25in;
+  font-size: 50px;
+  margin-top: -50px;
+  margin-bottom: 0;
+  background-color: #2789B3;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.all {
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+body {
+ background-color: white;
+ margin-top: 50px;
+ color: #2789b3;
+}
+
+.font {
+  font-size: 100px;
+}
+
+h1{
+ font-family: 'Inconsolata', monospace;
+ font-size: 50px;
+}
+h4{
+ font-size: 20px;
+}
+
+img{
+ object-fit: cover;
+ height: 3in;
+ /* width: 100%; */
+ margin-left: 5%;
+ margin-right: 5%;
+ /* display: flex;
+ flex-wrap: wrap; */
+}
