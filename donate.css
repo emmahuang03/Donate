@@ -10,10 +10,37 @@ h2 {
     font-family: 'Inconsolata', monospace;
     text-align: center;
     background-color: #FFAE52;
-    margin: 5px 0px 10px;
+    margin: 0px 0px 0px;
     color: black;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.navBar{
+display: flex;
+justify-content:space-around;
+margin-left: 5%;
+margin-right: 5%;
+}
+.tabs{
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 20px;
+width: 20%;
+height: 45px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color:#68D3FF;
+font-family: 'Inconsolata', monospace;
+}
+.tabs:hover{
+text-decoration: underline;
+background-color: #FFAE52;
+}
+a{
+color: #454444;
 }
 
 .top {
@@ -21,6 +48,7 @@ h2 {
   justify-content: center;
   flex-direction: row;
   text-align: center;
+  align-items: center;
   height: 1.25in;
   font-size: 50px;
   margin-top: -50px;
@@ -49,6 +77,7 @@ body {
 
 .font {
   font-size: 100px;
+  align-items: center;
 }
 
 h1{
@@ -62,9 +91,14 @@ h4{
 img{
  object-fit: cover;
  height: 3in;
- /* width: 100%; */
- margin-left: 5%;
- margin-right: 5%;
- /* display: flex;
- flex-wrap: wrap; */
+ width: 100%;
+ /* margin-left: 5%;
+ margin-right: 5%; */
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
 }
