@@ -13,12 +13,14 @@ function enter(){
   var answer = $('.answer');
   var body = $('body');
   var all = $('.all');
+  var don4 = $('.don4');
+  var input = $('.input');
 
   if(names.length == 0) {
     answer.text("Something is missing. Please go back and fill it again.");
   } else if ($('.org1').prop("checked") == false && $('.org2').prop("checked") == false && $('.org3').prop("checked") == false) {
     answer.text("Something is missing. Please go back and fill it again.");
-  } else if ($('.don1').prop("checked") == false && $('.don2').prop("checked") == false && $('.don3').prop("checked") == false){
+  } else if ($('.don1').prop("checked") == false && $('.don4').prop("checked") == false && $('.don2').prop("checked") == false && $('.don3').prop("checked") == false){
     answer.text("Something is missing. Please go back and fill it again.");
   } else {
     all.text("Thank you! We will contact you soon.");
