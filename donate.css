@@ -16,6 +16,21 @@ h2 {
     margin-right: 5%;
 }
 
+.inline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+.don4 {
+  margin-right: 10px;
+}
+
+.don4 {
+  margin-left: 10px;
+}
+
 .navBar{
 display: flex;
 justify-content:space-around;
@@ -102,4 +117,3 @@ img{
   margin-left: 5%;
   margin-right: 5%;
 }
-
